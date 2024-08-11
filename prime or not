@@ -1,0 +1,13 @@
+int main() {
+    int N = 29;
+    printf("Is %d prime? ", N);
+
+    if (isPrime(N)) {
+        printf("Yes\n");
+    }
+    else {
+        printf("No\n");
+    }
+
+    return 0;
+}
